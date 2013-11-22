@@ -1,0 +1,52 @@
+﻿body {
+}
+
+.searchbar
+{
+    
+    color: #FFFFFF;
+    font-size: small;
+}
+.TextBox
+{
+    border-style: none;
+    width:100%;
+}
+.adContent
+{
+    background-color: #003366;
+    color: #FFFFFF;
+}
+.placeHolder
+{
+    width: inherit;
+    
+}
+.arrangementtable
+{
+    border-spacing: 0px;
+    width: 100%;
+    border-style: none;
+}
+.banner
+{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: x-large;
+    width: 400px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-color: #000080;
+    background-image: url('../Images/banner1.png');
+}
+.sitebutton
+{
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    background-color: #000080;
+    width: 60px;
+}
+.portletbackground
+{
+    background-color: #000040;
+}

@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SPRTGS.master.cs" Inherits="SPRTGS.SPRTGS" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>SPRTGS Home</title>
+    <link href="~/Styles/SPRTGSStyles.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <table class="arrangementtable" >
+        <tr class="banner" >
+            
+            <td class="mainLogo" align="right" colspan="3">
+            <table width="242px"><tr><td align="left" style="font-size: xx-large">S P Road</td></tr>
+            <tr><td style="font-size: medium" align="right">The Gadget Street&nbsp;&nbsp; </td></tr>
+            <tr><td class="searchbar">Search&nbsp; <asp:TextBox ID="TextBox1" runat="server" 
+                    Width="188px" CssClass="TextBox"></asp:TextBox>&nbsp; </td></tr>
+            </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+    <div class="placeHolder">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="adContent">
+                3rd Party Ad 1</td>
+            <td class="adContent">
+                3rd Party Ad 2</td>
+            <td class="adContent">
+                3rd Party Ad 3</td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
